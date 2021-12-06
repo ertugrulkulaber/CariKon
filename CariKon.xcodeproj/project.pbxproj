@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		875F167E275E04F000EFDE25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875F167D275E04F000EFDE25 /* AppDelegate.swift */; };
+		875F1680275E04F000EFDE25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875F167F275E04F000EFDE25 /* SceneDelegate.swift */; };
+		875F1682275E04F000EFDE25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875F1681275E04F000EFDE25 /* ViewController.swift */; };
+		875F1685275E04F000EFDE25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875F1683275E04F000EFDE25 /* Main.storyboard */; };
+		875F1687275E04F100EFDE25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875F1686275E04F100EFDE25 /* Assets.xcassets */; };
+		875F168A275E04F100EFDE25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875F1688275E04F100EFDE25 /* LaunchScreen.storyboard */; };
+		875F1695275E04F100EFDE25 /* CariKonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875F1694275E04F100EFDE25 /* CariKonTests.swift */; };
+		875F169F275E04F100EFDE25 /* CariKonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875F169E275E04F100EFDE25 /* CariKonUITests.swift */; };
+		875F16A1275E04F100EFDE25 /* CariKonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875F16A0275E04F100EFDE25 /* CariKonUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		875F1691275E04F100EFDE25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 875F1672275E04F000EFDE25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 875F1679275E04F000EFDE25;
+			remoteInfo = CariKon;
+		};
+		875F169B275E04F100EFDE25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 875F1672275E04F000EFDE25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 875F1679275E04F000EFDE25;
+			remoteInfo = CariKon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		875F167A275E04F000EFDE25 /* CariKon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CariKon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		875F167D275E04F000EFDE25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		875F167F275E04F000EFDE25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		875F1681275E04F000EFDE25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		875F1684275E04F000EFDE25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		875F1686275E04F100EFDE25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		875F1689275E04F100EFDE25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		875F168B275E04F100EFDE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		875F1690275E04F100EFDE25 /* CariKonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CariKonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		875F1694275E04F100EFDE25 /* CariKonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CariKonTests.swift; sourceTree = "<group>"; };
+		875F169A275E04F100EFDE25 /* CariKonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CariKonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		875F169E275E04F100EFDE25 /* CariKonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CariKonUITests.swift; sourceTree = "<group>"; };
+		875F16A0275E04F100EFDE25 /* CariKonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CariKonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		875F1677275E04F000EFDE25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875F168D275E04F100EFDE25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875F1697275E04F100EFDE25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		875F1671275E04F000EFDE25 = {
+			isa = PBXGroup;
+			children = (
+				875F167C275E04F000EFDE25 /* CariKon */,
+				875F1693275E04F100EFDE25 /* CariKonTests */,
+				875F169D275E04F100EFDE25 /* CariKonUITests */,
+				875F167B275E04F000EFDE25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		875F167B275E04F000EFDE25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				875F167A275E04F000EFDE25 /* CariKon.app */,
+				875F1690275E04F100EFDE25 /* CariKonTests.xctest */,
+				875F169A275E04F100EFDE25 /* CariKonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		875F167C275E04F000EFDE25 /* CariKon */ = {
+			isa = PBXGroup;
+			children = (
+				875F167D275E04F000EFDE25 /* AppDelegate.swift */,
+				875F167F275E04F000EFDE25 /* SceneDelegate.swift */,
+				875F1681275E04F000EFDE25 /* ViewController.swift */,
+				875F1683275E04F000EFDE25 /* Main.storyboard */,
+				875F1686275E04F100EFDE25 /* Assets.xcassets */,
+				875F1688275E04F100EFDE25 /* LaunchScreen.storyboard */,
+				875F168B275E04F100EFDE25 /* Info.plist */,
+			);
+			path = CariKon;
+			sourceTree = "<group>";
+		};
+		875F1693275E04F100EFDE25 /* CariKonTests */ = {
+			isa = PBXGroup;
+			children = (
+				875F1694275E04F100EFDE25 /* CariKonTests.swift */,
+			);
+			path = CariKonTests;
+			sourceTree = "<group>";
+		};
+		875F169D275E04F100EFDE25 /* CariKonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				875F169E275E04F100EFDE25 /* CariKonUITests.swift */,
+				875F16A0275E04F100EFDE25 /* CariKonUITestsLaunchTests.swift */,
+			);
+			path = CariKonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		875F1679275E04F000EFDE25 /* CariKon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 875F16A4275E04F100EFDE25 /* Build configuration list for PBXNativeTarget "CariKon" */;
+			buildPhases = (
+				875F1676275E04F000EFDE25 /* Sources */,
+				875F1677275E04F000EFDE25 /* Frameworks */,
+				875F1678275E04F000EFDE25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CariKon;
+			productName = CariKon;
+			productReference = 875F167A275E04F000EFDE25 /* CariKon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		875F168F275E04F100EFDE25 /* CariKonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 875F16A7275E04F100EFDE25 /* Build configuration list for PBXNativeTarget "CariKonTests" */;
+			buildPhases = (
+				875F168C275E04F100EFDE25 /* Sources */,
+				875F168D275E04F100EFDE25 /* Frameworks */,
+				875F168E275E04F100EFDE25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				875F1692275E04F100EFDE25 /* PBXTargetDependency */,
+			);
+			name = CariKonTests;
+			productName = CariKonTests;
+			productReference = 875F1690275E04F100EFDE25 /* CariKonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		875F1699275E04F100EFDE25 /* CariKonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 875F16AA275E04F100EFDE25 /* Build configuration list for PBXNativeTarget "CariKonUITests" */;
+			buildPhases = (
+				875F1696275E04F100EFDE25 /* Sources */,
+				875F1697275E04F100EFDE25 /* Frameworks */,
+				875F1698275E04F100EFDE25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				875F169C275E04F100EFDE25 /* PBXTargetDependency */,
+			);
+			name = CariKonUITests;
+			productName = CariKonUITests;
+			productReference = 875F169A275E04F100EFDE25 /* CariKonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		875F1672275E04F000EFDE25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					875F1679275E04F000EFDE25 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					875F168F275E04F100EFDE25 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 875F1679275E04F000EFDE25;
+					};
+					875F1699275E04F100EFDE25 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 875F1679275E04F000EFDE25;
+					};
+				};
+			};
+			buildConfigurationList = 875F1675275E04F000EFDE25 /* Build configuration list for PBXProject "CariKon" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 875F1671275E04F000EFDE25;
+			productRefGroup = 875F167B275E04F000EFDE25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				875F1679275E04F000EFDE25 /* CariKon */,
+				875F168F275E04F100EFDE25 /* CariKonTests */,
+				875F1699275E04F100EFDE25 /* CariKonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		875F1678275E04F000EFDE25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875F168A275E04F100EFDE25 /* LaunchScreen.storyboard in Resources */,
+				875F1687275E04F100EFDE25 /* Assets.xcassets in Resources */,
+				875F1685275E04F000EFDE25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875F168E275E04F100EFDE25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875F1698275E04F100EFDE25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		875F1676275E04F000EFDE25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875F1682275E04F000EFDE25 /* ViewController.swift in Sources */,
+				875F167E275E04F000EFDE25 /* AppDelegate.swift in Sources */,
+				875F1680275E04F000EFDE25 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875F168C275E04F100EFDE25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875F1695275E04F100EFDE25 /* CariKonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875F1696275E04F100EFDE25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875F16A1275E04F100EFDE25 /* CariKonUITestsLaunchTests.swift in Sources */,
+				875F169F275E04F100EFDE25 /* CariKonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		875F1692275E04F100EFDE25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 875F1679275E04F000EFDE25 /* CariKon */;
+			targetProxy = 875F1691275E04F100EFDE25 /* PBXContainerItemProxy */;
+		};
+		875F169C275E04F100EFDE25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 875F1679275E04F000EFDE25 /* CariKon */;
+			targetProxy = 875F169B275E04F100EFDE25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		875F1683275E04F000EFDE25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				875F1684275E04F000EFDE25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		875F1688275E04F100EFDE25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				875F1689275E04F100EFDE25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		875F16A2275E04F100EFDE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		875F16A3275E04F100EFDE25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		875F16A5275E04F100EFDE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CariKon/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ertugrulkulaber-gmail.com.CariKon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		875F16A6275E04F100EFDE25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CariKon/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ertugrulkulaber-gmail.com.CariKon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		875F16A8275E04F100EFDE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ertugrulkulaber-gmail.com.CariKonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CariKon.app/CariKon";
+			};
+			name = Debug;
+		};
+		875F16A9275E04F100EFDE25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ertugrulkulaber-gmail.com.CariKonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CariKon.app/CariKon";
+			};
+			name = Release;
+		};
+		875F16AB275E04F100EFDE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ertugrulkulaber-gmail.com.CariKonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CariKon;
+			};
+			name = Debug;
+		};
+		875F16AC275E04F100EFDE25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ertugrulkulaber-gmail.com.CariKonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CariKon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		875F1675275E04F000EFDE25 /* Build configuration list for PBXProject "CariKon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875F16A2275E04F100EFDE25 /* Debug */,
+				875F16A3275E04F100EFDE25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		875F16A4275E04F100EFDE25 /* Build configuration list for PBXNativeTarget "CariKon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875F16A5275E04F100EFDE25 /* Debug */,
+				875F16A6275E04F100EFDE25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		875F16A7275E04F100EFDE25 /* Build configuration list for PBXNativeTarget "CariKonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875F16A8275E04F100EFDE25 /* Debug */,
+				875F16A9275E04F100EFDE25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		875F16AA275E04F100EFDE25 /* Build configuration list for PBXNativeTarget "CariKonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875F16AB275E04F100EFDE25 /* Debug */,
+				875F16AC275E04F100EFDE25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 875F1672275E04F000EFDE25 /* Project object */;
+}
